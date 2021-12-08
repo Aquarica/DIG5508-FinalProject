@@ -84,12 +84,12 @@ function keyPressed() {
     //     }
     // }
 
-    //clears the board
-    if (keyCode === UP_ARROW) {
+    //clears the board key c
+    if (keyCode === 67) {
         gridSet.boardClear()
     }
-    //makes new random array
-    if (keyCode === DOWN_ARROW) {
+    //makes new random array key x
+    if (keyCode === 88) {
         gridSet.createRandomArray()
     }
     //r key, makes it so rules can have some randomization
